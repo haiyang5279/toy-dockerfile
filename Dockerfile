@@ -1,4 +1,4 @@
-FROM docker-registry.caicloudprivatetest.com/caicloud/busybox:test
+FROM index.caicloud.io/caicloud/busybox:test
 
 COPY ./echo.sh /echo.sh
 CMD ["/echo.sh"]
