@@ -1,4 +1,4 @@
-FROM index.caicloud.io/caicloud/busybox:test
+FROM busybox
 
 COPY ./echo.sh /echo.sh
 CMD ["/echo.sh"]
