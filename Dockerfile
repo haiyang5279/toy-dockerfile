@@ -1,4 +1,4 @@
-FROM busybox
+FROM xxxx/busybox
 
 COPY ./echo.sh /echo.sh
 CMD ["/echo.sh"]
